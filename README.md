@@ -81,13 +81,13 @@ Source the TCL file:
 
 To then run simulation, just click 'Run behavioral simulation'. The test bench will run and you will see the following:
 
-![./out/Pre-Synthesis-Simulation.png]
+![simulation](./out/Pre-Synthesis-Simulation.png)
 
 To implement the out of context module, you can run:
 `source ../scripts/f_max_ooc.tcl`
 
 You will then be able to see the timing
 
-![./out/Implementation-Timing-Summary.png]
+![timing](./out/Implementation-Timing-Summary.png)
 
 This is with the current constrains file that has a 1.6nm clock set (625MHz).
